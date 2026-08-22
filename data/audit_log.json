@@ -1,0 +1,488 @@
+[
+  {
+    "order_id": "order_0047",
+    "diagnosis_bucket": "user_cancelled",
+    "confidence": 0.15,
+    "amount_inr": 18500,
+    "timestamp": "2026-08-22T19:53:14.694782+00:00",
+    "action": "no_action",
+    "reason": "Confidence 0.15 below minimum threshold 0.5 \u2014 too uncertain to act."
+  },
+  {
+    "order_id": "order_0030",
+    "diagnosis_bucket": "technical_failure",
+    "confidence": 0.9,
+    "amount_inr": 2499,
+    "timestamp": "2026-08-22T19:53:14.694835+00:00",
+    "action": "retry_nudge",
+    "reason": "Diagnosis bucket 'technical_failure' with confidence 0.90 (>= 0.5) and order value INR 2499 (>= 500) \u2014 eligible for 'retry_nudge'."
+  },
+  {
+    "order_id": "order_0032",
+    "diagnosis_bucket": "auth_friction",
+    "confidence": 0.85,
+    "amount_inr": 1599,
+    "timestamp": "2026-08-22T19:53:14.694865+00:00",
+    "action": "otp_resend_nudge",
+    "reason": "Diagnosis bucket 'auth_friction' with confidence 0.85 (>= 0.5) and order value INR 1599 (>= 500) \u2014 eligible for 'otp_resend_nudge'."
+  },
+  {
+    "order_id": "order_0067",
+    "diagnosis_bucket": "low_intent_abandonment",
+    "confidence": 0.2,
+    "amount_inr": 5400,
+    "timestamp": "2026-08-22T19:53:14.694890+00:00",
+    "action": "no_action",
+    "reason": "Confidence 0.20 below minimum threshold 0.5 \u2014 too uncertain to act."
+  },
+  {
+    "order_id": "order_0021",
+    "diagnosis_bucket": "technical_failure",
+    "confidence": 0.9,
+    "amount_inr": 2499,
+    "timestamp": "2026-08-22T19:53:14.694908+00:00",
+    "action": "retry_nudge",
+    "reason": "Diagnosis bucket 'technical_failure' with confidence 0.90 (>= 0.5) and order value INR 2499 (>= 500) \u2014 eligible for 'retry_nudge'."
+  },
+  {
+    "order_id": "order_0046",
+    "diagnosis_bucket": "user_cancelled",
+    "confidence": 0.15,
+    "amount_inr": 2499,
+    "timestamp": "2026-08-22T19:53:14.694926+00:00",
+    "action": "no_action",
+    "reason": "Confidence 0.15 below minimum threshold 0.5 \u2014 too uncertain to act."
+  },
+  {
+    "order_id": "order_0062",
+    "diagnosis_bucket": "low_intent_abandonment",
+    "confidence": 0.2,
+    "amount_inr": 5400,
+    "timestamp": "2026-08-22T19:53:14.694941+00:00",
+    "action": "no_action",
+    "reason": "Confidence 0.20 below minimum threshold 0.5 \u2014 too uncertain to act."
+  },
+  {
+    "order_id": "order_0048",
+    "diagnosis_bucket": "user_cancelled",
+    "confidence": 0.15,
+    "amount_inr": 8500,
+    "timestamp": "2026-08-22T19:53:14.694955+00:00",
+    "action": "no_action",
+    "reason": "Confidence 0.15 below minimum threshold 0.5 \u2014 too uncertain to act."
+  },
+  {
+    "order_id": "order_0025",
+    "diagnosis_bucket": "technical_failure",
+    "confidence": 0.9,
+    "amount_inr": 3200,
+    "timestamp": "2026-08-22T19:53:14.694969+00:00",
+    "action": "retry_nudge",
+    "reason": "Diagnosis bucket 'technical_failure' with confidence 0.90 (>= 0.5) and order value INR 3200 (>= 500) \u2014 eligible for 'retry_nudge'."
+  },
+  {
+    "order_id": "order_0042",
+    "diagnosis_bucket": "payment_method_issue",
+    "confidence": 0.6,
+    "amount_inr": 1599,
+    "timestamp": "2026-08-22T19:53:14.694987+00:00",
+    "action": "alt_payment_method_nudge",
+    "reason": "Diagnosis bucket 'payment_method_issue' with confidence 0.60 (>= 0.5) and order value INR 1599 (>= 500) \u2014 eligible for 'alt_payment_method_nudge'."
+  },
+  {
+    "order_id": "order_0019",
+    "diagnosis_bucket": "technical_failure",
+    "confidence": 0.9,
+    "amount_inr": 2499,
+    "timestamp": "2026-08-22T19:53:14.695003+00:00",
+    "action": "retry_nudge",
+    "reason": "Diagnosis bucket 'technical_failure' with confidence 0.90 (>= 0.5) and order value INR 2499 (>= 500) \u2014 eligible for 'retry_nudge'."
+  },
+  {
+    "order_id": "order_0023",
+    "diagnosis_bucket": "technical_failure",
+    "confidence": 0.9,
+    "amount_inr": 18500,
+    "timestamp": "2026-08-22T19:53:14.695020+00:00",
+    "action": "retry_nudge",
+    "reason": "Diagnosis bucket 'technical_failure' with confidence 0.90 (>= 0.5) and order value INR 18500 (>= 500) \u2014 eligible for 'retry_nudge'."
+  },
+  {
+    "order_id": "order_0039",
+    "diagnosis_bucket": "payment_method_issue",
+    "confidence": 0.6,
+    "amount_inr": 1899,
+    "timestamp": "2026-08-22T19:53:14.695038+00:00",
+    "action": "alt_payment_method_nudge",
+    "reason": "Diagnosis bucket 'payment_method_issue' with confidence 0.60 (>= 0.5) and order value INR 1899 (>= 500) \u2014 eligible for 'alt_payment_method_nudge'."
+  },
+  {
+    "order_id": "order_0060",
+    "diagnosis_bucket": "high_intent_abandonment",
+    "confidence": 0.6,
+    "amount_inr": 4200,
+    "timestamp": "2026-08-22T19:53:14.695054+00:00",
+    "action": "soft_reminder_nudge",
+    "reason": "Diagnosis bucket 'high_intent_abandonment' with confidence 0.60 (>= 0.5) and order value INR 4200 (>= 500) \u2014 eligible for 'soft_reminder_nudge'."
+  },
+  {
+    "order_id": "order_0033",
+    "diagnosis_bucket": "auth_friction",
+    "confidence": 0.85,
+    "amount_inr": 2499,
+    "timestamp": "2026-08-22T19:53:14.695070+00:00",
+    "action": "otp_resend_nudge",
+    "reason": "Diagnosis bucket 'auth_friction' with confidence 0.85 (>= 0.5) and order value INR 2499 (>= 500) \u2014 eligible for 'otp_resend_nudge'."
+  },
+  {
+    "order_id": "order_0061",
+    "diagnosis_bucket": "high_intent_abandonment",
+    "confidence": 0.75,
+    "amount_inr": 4200,
+    "timestamp": "2026-08-22T19:53:14.695086+00:00",
+    "action": "soft_reminder_nudge",
+    "reason": "Diagnosis bucket 'high_intent_abandonment' with confidence 0.75 (>= 0.5) and order value INR 4200 (>= 500) \u2014 eligible for 'soft_reminder_nudge'."
+  },
+  {
+    "order_id": "order_0040",
+    "diagnosis_bucket": "payment_method_issue",
+    "confidence": 0.6,
+    "amount_inr": 2499,
+    "timestamp": "2026-08-22T19:53:14.695102+00:00",
+    "action": "alt_payment_method_nudge",
+    "reason": "Diagnosis bucket 'payment_method_issue' with confidence 0.60 (>= 0.5) and order value INR 2499 (>= 500) \u2014 eligible for 'alt_payment_method_nudge'."
+  },
+  {
+    "order_id": "order_0051",
+    "diagnosis_bucket": "user_cancelled",
+    "confidence": 0.15,
+    "amount_inr": 8500,
+    "timestamp": "2026-08-22T19:53:14.695119+00:00",
+    "action": "no_action",
+    "reason": "Confidence 0.15 below minimum threshold 0.5 \u2014 too uncertain to act."
+  },
+  {
+    "order_id": "order_0045",
+    "diagnosis_bucket": "payment_method_issue",
+    "confidence": 0.6,
+    "amount_inr": 18500,
+    "timestamp": "2026-08-22T19:53:14.695133+00:00",
+    "action": "alt_payment_method_nudge",
+    "reason": "Diagnosis bucket 'payment_method_issue' with confidence 0.60 (>= 0.5) and order value INR 18500 (>= 500) \u2014 eligible for 'alt_payment_method_nudge'."
+  },
+  {
+    "order_id": "order_0031",
+    "diagnosis_bucket": "auth_friction",
+    "confidence": 0.85,
+    "amount_inr": 1899,
+    "timestamp": "2026-08-22T19:53:14.695149+00:00",
+    "action": "otp_resend_nudge",
+    "reason": "Diagnosis bucket 'auth_friction' with confidence 0.85 (>= 0.5) and order value INR 1899 (>= 500) \u2014 eligible for 'otp_resend_nudge'."
+  },
+  {
+    "order_id": "order_0026",
+    "diagnosis_bucket": "technical_failure",
+    "confidence": 0.9,
+    "amount_inr": 1899,
+    "timestamp": "2026-08-22T19:53:14.695165+00:00",
+    "action": "retry_nudge",
+    "reason": "Diagnosis bucket 'technical_failure' with confidence 0.90 (>= 0.5) and order value INR 1899 (>= 500) \u2014 eligible for 'retry_nudge'."
+  },
+  {
+    "order_id": "order_0066",
+    "diagnosis_bucket": "low_intent_abandonment",
+    "confidence": 0.2,
+    "amount_inr": 8500,
+    "timestamp": "2026-08-22T19:53:14.695181+00:00",
+    "action": "no_action",
+    "reason": "Confidence 0.20 below minimum threshold 0.5 \u2014 too uncertain to act."
+  },
+  {
+    "order_id": "order_0049",
+    "diagnosis_bucket": "user_cancelled",
+    "confidence": 0.15,
+    "amount_inr": 55000,
+    "timestamp": "2026-08-22T19:53:14.695195+00:00",
+    "action": "no_action",
+    "reason": "Confidence 0.15 below minimum threshold 0.5 \u2014 too uncertain to act."
+  },
+  {
+    "order_id": "order_0043",
+    "diagnosis_bucket": "payment_method_issue",
+    "confidence": 0.6,
+    "amount_inr": 4200,
+    "timestamp": "2026-08-22T19:53:14.695209+00:00",
+    "action": "alt_payment_method_nudge",
+    "reason": "Diagnosis bucket 'payment_method_issue' with confidence 0.60 (>= 0.5) and order value INR 4200 (>= 500) \u2014 eligible for 'alt_payment_method_nudge'."
+  },
+  {
+    "order_id": "order_0038",
+    "diagnosis_bucket": "auth_friction",
+    "confidence": 0.85,
+    "amount_inr": 18500,
+    "timestamp": "2026-08-22T19:53:14.695225+00:00",
+    "action": "otp_resend_nudge",
+    "reason": "Diagnosis bucket 'auth_friction' with confidence 0.85 (>= 0.5) and order value INR 18500 (>= 500) \u2014 eligible for 'otp_resend_nudge'."
+  },
+  {
+    "order_id": "order_0024",
+    "diagnosis_bucket": "technical_failure",
+    "confidence": 0.9,
+    "amount_inr": 4200,
+    "timestamp": "2026-08-22T19:53:14.695241+00:00",
+    "action": "retry_nudge",
+    "reason": "Diagnosis bucket 'technical_failure' with confidence 0.90 (>= 0.5) and order value INR 4200 (>= 500) \u2014 eligible for 'retry_nudge'."
+  },
+  {
+    "order_id": "order_0053",
+    "diagnosis_bucket": "high_intent_abandonment",
+    "confidence": 0.6,
+    "amount_inr": 4200,
+    "timestamp": "2026-08-22T19:53:14.695258+00:00",
+    "action": "soft_reminder_nudge",
+    "reason": "Diagnosis bucket 'high_intent_abandonment' with confidence 0.60 (>= 0.5) and order value INR 4200 (>= 500) \u2014 eligible for 'soft_reminder_nudge'."
+  },
+  {
+    "order_id": "order_0052",
+    "diagnosis_bucket": "high_intent_abandonment",
+    "confidence": 0.6,
+    "amount_inr": 8500,
+    "timestamp": "2026-08-22T19:53:14.695274+00:00",
+    "action": "soft_reminder_nudge",
+    "reason": "Diagnosis bucket 'high_intent_abandonment' with confidence 0.60 (>= 0.5) and order value INR 8500 (>= 500) \u2014 eligible for 'soft_reminder_nudge'."
+  },
+  {
+    "order_id": "order_0068",
+    "diagnosis_bucket": "low_intent_abandonment",
+    "confidence": 0.2,
+    "amount_inr": 5400,
+    "timestamp": "2026-08-22T19:53:14.695290+00:00",
+    "action": "no_action",
+    "reason": "Confidence 0.20 below minimum threshold 0.5 \u2014 too uncertain to act."
+  },
+  {
+    "order_id": "order_0056",
+    "diagnosis_bucket": "high_intent_abandonment",
+    "confidence": 0.6,
+    "amount_inr": 8500,
+    "timestamp": "2026-08-22T19:53:14.695303+00:00",
+    "action": "soft_reminder_nudge",
+    "reason": "Diagnosis bucket 'high_intent_abandonment' with confidence 0.60 (>= 0.5) and order value INR 8500 (>= 500) \u2014 eligible for 'soft_reminder_nudge'."
+  },
+  {
+    "order_id": "order_0036",
+    "diagnosis_bucket": "auth_friction",
+    "confidence": 0.85,
+    "amount_inr": 1599,
+    "timestamp": "2026-08-22T19:53:14.695319+00:00",
+    "action": "otp_resend_nudge",
+    "reason": "Diagnosis bucket 'auth_friction' with confidence 0.85 (>= 0.5) and order value INR 1599 (>= 500) \u2014 eligible for 'otp_resend_nudge'."
+  },
+  {
+    "order_id": "order_0029",
+    "diagnosis_bucket": "technical_failure",
+    "confidence": 0.9,
+    "amount_inr": 2499,
+    "timestamp": "2026-08-22T19:53:14.695355+00:00",
+    "action": "retry_nudge",
+    "reason": "Diagnosis bucket 'technical_failure' with confidence 0.90 (>= 0.5) and order value INR 2499 (>= 500) \u2014 eligible for 'retry_nudge'."
+  },
+  {
+    "order_id": "order_0064",
+    "diagnosis_bucket": "low_intent_abandonment",
+    "confidence": 0.2,
+    "amount_inr": 1599,
+    "timestamp": "2026-08-22T19:53:14.695371+00:00",
+    "action": "no_action",
+    "reason": "Confidence 0.20 below minimum threshold 0.5 \u2014 too uncertain to act."
+  },
+  {
+    "order_id": "order_0057",
+    "diagnosis_bucket": "high_intent_abandonment",
+    "confidence": 0.75,
+    "amount_inr": 3200,
+    "timestamp": "2026-08-22T19:53:14.695392+00:00",
+    "action": "soft_reminder_nudge",
+    "reason": "Diagnosis bucket 'high_intent_abandonment' with confidence 0.75 (>= 0.5) and order value INR 3200 (>= 500) \u2014 eligible for 'soft_reminder_nudge'."
+  },
+  {
+    "order_id": "order_0050",
+    "diagnosis_bucket": "user_cancelled",
+    "confidence": 0.15,
+    "amount_inr": 55000,
+    "timestamp": "2026-08-22T19:53:14.695408+00:00",
+    "action": "no_action",
+    "reason": "Confidence 0.15 below minimum threshold 0.5 \u2014 too uncertain to act."
+  },
+  {
+    "order_id": "order_0022",
+    "diagnosis_bucket": "technical_failure",
+    "confidence": 0.9,
+    "amount_inr": 3200,
+    "timestamp": "2026-08-22T19:53:14.695421+00:00",
+    "action": "retry_nudge",
+    "reason": "Diagnosis bucket 'technical_failure' with confidence 0.90 (>= 0.5) and order value INR 3200 (>= 500) \u2014 eligible for 'retry_nudge'."
+  },
+  {
+    "order_id": "order_0077",
+    "diagnosis_bucket": "high_intent_abandonment",
+    "confidence": 0.6,
+    "amount_inr": 149,
+    "timestamp": "2026-08-22T19:53:14.695437+00:00",
+    "action": "no_action",
+    "reason": "Order value INR 149 below minimum floor INR 500 \u2014 not worth recovery effort."
+  },
+  {
+    "order_id": "order_0054",
+    "diagnosis_bucket": "high_intent_abandonment",
+    "confidence": 0.75,
+    "amount_inr": 4200,
+    "timestamp": "2026-08-22T19:53:14.695451+00:00",
+    "action": "soft_reminder_nudge",
+    "reason": "Diagnosis bucket 'high_intent_abandonment' with confidence 0.75 (>= 0.5) and order value INR 4200 (>= 500) \u2014 eligible for 'soft_reminder_nudge'."
+  },
+  {
+    "order_id": "order_0028",
+    "diagnosis_bucket": "technical_failure",
+    "confidence": 0.9,
+    "amount_inr": 8500,
+    "timestamp": "2026-08-22T19:53:14.695466+00:00",
+    "action": "retry_nudge",
+    "reason": "Diagnosis bucket 'technical_failure' with confidence 0.90 (>= 0.5) and order value INR 8500 (>= 500) \u2014 eligible for 'retry_nudge'."
+  },
+  {
+    "order_id": "order_0041",
+    "diagnosis_bucket": "payment_method_issue",
+    "confidence": 0.6,
+    "amount_inr": 1599,
+    "timestamp": "2026-08-22T19:53:14.695482+00:00",
+    "action": "alt_payment_method_nudge",
+    "reason": "Diagnosis bucket 'payment_method_issue' with confidence 0.60 (>= 0.5) and order value INR 1599 (>= 500) \u2014 eligible for 'alt_payment_method_nudge'."
+  },
+  {
+    "order_id": "order_0055",
+    "diagnosis_bucket": "high_intent_abandonment",
+    "confidence": 0.75,
+    "amount_inr": 4200,
+    "timestamp": "2026-08-22T19:53:14.695497+00:00",
+    "action": "soft_reminder_nudge",
+    "reason": "Diagnosis bucket 'high_intent_abandonment' with confidence 0.75 (>= 0.5) and order value INR 4200 (>= 500) \u2014 eligible for 'soft_reminder_nudge'."
+  },
+  {
+    "order_id": "order_0059",
+    "diagnosis_bucket": "high_intent_abandonment",
+    "confidence": 0.75,
+    "amount_inr": 4200,
+    "timestamp": "2026-08-22T19:53:14.695513+00:00",
+    "action": "soft_reminder_nudge",
+    "reason": "Diagnosis bucket 'high_intent_abandonment' with confidence 0.75 (>= 0.5) and order value INR 4200 (>= 500) \u2014 eligible for 'soft_reminder_nudge'."
+  },
+  {
+    "order_id": "order_0058",
+    "diagnosis_bucket": "high_intent_abandonment",
+    "confidence": 0.75,
+    "amount_inr": 55000,
+    "timestamp": "2026-08-22T19:53:14.695537+00:00",
+    "action": "soft_reminder_nudge",
+    "reason": "Diagnosis bucket 'high_intent_abandonment' with confidence 0.75 (>= 0.5) and order value INR 55000 (>= 500) \u2014 eligible for 'soft_reminder_nudge'."
+  },
+  {
+    "order_id": "order_0063",
+    "diagnosis_bucket": "low_intent_abandonment",
+    "confidence": 0.2,
+    "amount_inr": 55000,
+    "timestamp": "2026-08-22T19:53:14.695553+00:00",
+    "action": "no_action",
+    "reason": "Confidence 0.20 below minimum threshold 0.5 \u2014 too uncertain to act."
+  },
+  {
+    "order_id": "order_0065",
+    "diagnosis_bucket": "low_intent_abandonment",
+    "confidence": 0.2,
+    "amount_inr": 2499,
+    "timestamp": "2026-08-22T19:53:14.695567+00:00",
+    "action": "no_action",
+    "reason": "Confidence 0.20 below minimum threshold 0.5 \u2014 too uncertain to act."
+  },
+  {
+    "order_id": "order_0076",
+    "diagnosis_bucket": "high_intent_abandonment",
+    "confidence": 0.6,
+    "amount_inr": 149,
+    "timestamp": "2026-08-22T19:53:14.695580+00:00",
+    "action": "no_action",
+    "reason": "Order value INR 149 below minimum floor INR 500 \u2014 not worth recovery effort."
+  },
+  {
+    "order_id": "order_0069",
+    "diagnosis_bucket": "low_intent_abandonment",
+    "confidence": 0.2,
+    "amount_inr": 8500,
+    "timestamp": "2026-08-22T19:53:14.695593+00:00",
+    "action": "no_action",
+    "reason": "Confidence 0.20 below minimum threshold 0.5 \u2014 too uncertain to act."
+  },
+  {
+    "order_id": "order_0044",
+    "diagnosis_bucket": "payment_method_issue",
+    "confidence": 0.6,
+    "amount_inr": 8500,
+    "timestamp": "2026-08-22T19:53:14.695606+00:00",
+    "action": "alt_payment_method_nudge",
+    "reason": "Diagnosis bucket 'payment_method_issue' with confidence 0.60 (>= 0.5) and order value INR 8500 (>= 500) \u2014 eligible for 'alt_payment_method_nudge'."
+  },
+  {
+    "order_id": "order_0027",
+    "diagnosis_bucket": "technical_failure",
+    "confidence": 0.9,
+    "amount_inr": 5400,
+    "timestamp": "2026-08-22T19:53:14.695622+00:00",
+    "action": "retry_nudge",
+    "reason": "Diagnosis bucket 'technical_failure' with confidence 0.90 (>= 0.5) and order value INR 5400 (>= 500) \u2014 eligible for 'retry_nudge'."
+  },
+  {
+    "order_id": "order_0037",
+    "diagnosis_bucket": "auth_friction",
+    "confidence": 0.85,
+    "amount_inr": 1599,
+    "timestamp": "2026-08-22T19:53:14.695637+00:00",
+    "action": "otp_resend_nudge",
+    "reason": "Diagnosis bucket 'auth_friction' with confidence 0.85 (>= 0.5) and order value INR 1599 (>= 500) \u2014 eligible for 'otp_resend_nudge'."
+  },
+  {
+    "order_id": "order_0035",
+    "diagnosis_bucket": "auth_friction",
+    "confidence": 0.85,
+    "amount_inr": 1599,
+    "timestamp": "2026-08-22T19:53:14.695653+00:00",
+    "action": "otp_resend_nudge",
+    "reason": "Diagnosis bucket 'auth_friction' with confidence 0.85 (>= 0.5) and order value INR 1599 (>= 500) \u2014 eligible for 'otp_resend_nudge'."
+  },
+  {
+    "order_id": "order_0020",
+    "diagnosis_bucket": "technical_failure",
+    "confidence": 0.9,
+    "amount_inr": 18500,
+    "timestamp": "2026-08-22T19:53:14.695675+00:00",
+    "action": "retry_nudge",
+    "reason": "Diagnosis bucket 'technical_failure' with confidence 0.90 (>= 0.5) and order value INR 18500 (>= 500) \u2014 eligible for 'retry_nudge'."
+  },
+  {
+    "order_id": "order_0078",
+    "diagnosis_bucket": "high_intent_abandonment",
+    "confidence": 0.6,
+    "amount_inr": 149,
+    "timestamp": "2026-08-22T19:53:14.695692+00:00",
+    "action": "no_action",
+    "reason": "Order value INR 149 below minimum floor INR 500 \u2014 not worth recovery effort."
+  },
+  {
+    "order_id": "order_0034",
+    "diagnosis_bucket": "auth_friction",
+    "confidence": 0.85,
+    "amount_inr": 55000,
+    "timestamp": "2026-08-22T19:53:14.695705+00:00",
+    "action": "otp_resend_nudge",
+    "reason": "Diagnosis bucket 'auth_friction' with confidence 0.85 (>= 0.5) and order value INR 55000 (>= 500) \u2014 eligible for 'otp_resend_nudge'."
+  }
+]
