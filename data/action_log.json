@@ -4,7 +4,7 @@
     "action": "retry_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Wireless Earbuds (INR 2499) hit a temporary technical issue on our end. Nothing wrong with your card/account. Tap here to retry: https://checkout.example.com/resume/order_0030",
-    "sent_at": "2026-08-22T20:05:34.830445+00:00",
+    "sent_at": "2026-08-22T20:19:03.467020+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -12,7 +12,7 @@
     "action": "otp_resend_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! It looks like the OTP for your Backpack order didn't come through in time. Tap here to retry and we'll resend it: https://checkout.example.com/resume/order_0032",
-    "sent_at": "2026-08-22T20:05:35.218653+00:00",
+    "sent_at": "2026-08-22T20:19:03.863605+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -20,7 +20,7 @@
     "action": "retry_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Wireless Earbuds (INR 2499) hit a temporary technical issue on our end. Nothing wrong with your card/account. Tap here to retry: https://checkout.example.com/resume/order_0021",
-    "sent_at": "2026-08-22T20:05:35.598987+00:00",
+    "sent_at": "2026-08-22T20:19:04.248608+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -28,7 +28,7 @@
     "action": "retry_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Running Shoes (INR 3200) hit a temporary technical issue on our end. Nothing wrong with your card/account. Tap here to retry: https://checkout.example.com/resume/order_0025",
-    "sent_at": "2026-08-22T20:05:35.965617+00:00",
+    "sent_at": "2026-08-22T20:19:04.630805+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -36,7 +36,7 @@
     "action": "alt_payment_method_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Backpack (INR 1599) didn't go through with that method. You can try a different card or UPI here: https://checkout.example.com/resume/order_0042",
-    "sent_at": "2026-08-22T20:05:36.361031+00:00",
+    "sent_at": "2026-08-22T20:19:05.164078+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -44,7 +44,7 @@
     "action": "retry_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Wireless Earbuds (INR 2499) hit a temporary technical issue on our end. Nothing wrong with your card/account. Tap here to retry: https://checkout.example.com/resume/order_0019",
-    "sent_at": "2026-08-22T20:05:36.727358+00:00",
+    "sent_at": "2026-08-22T20:19:05.576687+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -52,7 +52,7 @@
     "action": "retry_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for 4K Monitor (INR 18500) hit a temporary technical issue on our end. Nothing wrong with your card/account. Tap here to retry: https://checkout.example.com/resume/order_0023",
-    "sent_at": "2026-08-22T20:05:37.102190+00:00",
+    "sent_at": "2026-08-22T20:19:05.938741+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -60,7 +60,7 @@
     "action": "alt_payment_method_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Bluetooth Speaker (INR 1899) didn't go through with that method. You can try a different card or UPI here: https://checkout.example.com/resume/order_0039",
-    "sent_at": "2026-08-22T20:05:37.464017+00:00",
+    "sent_at": "2026-08-22T20:19:06.313149+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -68,7 +68,7 @@
     "action": "soft_reminder_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! You left Mechanical Keyboard (INR 4200) in your cart. Still interested? Pick up right where you left off: https://checkout.example.com/resume/order_0060",
-    "sent_at": "2026-08-22T20:05:37.863929+00:00",
+    "sent_at": "2026-08-22T20:19:06.689469+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -76,7 +76,7 @@
     "action": "otp_resend_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! It looks like the OTP for your Wireless Earbuds order didn't come through in time. Tap here to retry and we'll resend it: https://checkout.example.com/resume/order_0033",
-    "sent_at": "2026-08-22T20:05:38.270613+00:00",
+    "sent_at": "2026-08-22T20:19:07.079305+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -84,7 +84,7 @@
     "action": "soft_reminder_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! You left Mechanical Keyboard (INR 4200) in your cart. Still interested? Pick up right where you left off: https://checkout.example.com/resume/order_0061",
-    "sent_at": "2026-08-22T20:05:38.653075+00:00",
+    "sent_at": "2026-08-22T20:19:07.448869+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -92,7 +92,7 @@
     "action": "alt_payment_method_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Wireless Earbuds (INR 2499) didn't go through with that method. You can try a different card or UPI here: https://checkout.example.com/resume/order_0040",
-    "sent_at": "2026-08-22T20:05:39.150894+00:00",
+    "sent_at": "2026-08-22T20:19:07.848122+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -100,7 +100,7 @@
     "action": "alt_payment_method_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for 4K Monitor (INR 18500) didn't go through with that method. You can try a different card or UPI here: https://checkout.example.com/resume/order_0045",
-    "sent_at": "2026-08-22T20:05:39.545636+00:00",
+    "sent_at": "2026-08-22T20:19:08.232382+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -108,7 +108,7 @@
     "action": "otp_resend_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! It looks like the OTP for your Bluetooth Speaker order didn't come through in time. Tap here to retry and we'll resend it: https://checkout.example.com/resume/order_0031",
-    "sent_at": "2026-08-22T20:05:39.909732+00:00",
+    "sent_at": "2026-08-22T20:19:08.624688+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -116,7 +116,7 @@
     "action": "retry_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Bluetooth Speaker (INR 1899) hit a temporary technical issue on our end. Nothing wrong with your card/account. Tap here to retry: https://checkout.example.com/resume/order_0026",
-    "sent_at": "2026-08-22T20:05:40.293130+00:00",
+    "sent_at": "2026-08-22T20:19:09.003513+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -124,7 +124,7 @@
     "action": "alt_payment_method_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Mechanical Keyboard (INR 4200) didn't go through with that method. You can try a different card or UPI here: https://checkout.example.com/resume/order_0043",
-    "sent_at": "2026-08-22T20:05:40.669030+00:00",
+    "sent_at": "2026-08-22T20:19:09.408516+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -132,7 +132,7 @@
     "action": "otp_resend_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! It looks like the OTP for your 4K Monitor order didn't come through in time. Tap here to retry and we'll resend it: https://checkout.example.com/resume/order_0038",
-    "sent_at": "2026-08-22T20:05:41.030249+00:00",
+    "sent_at": "2026-08-22T20:19:09.797952+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -140,7 +140,7 @@
     "action": "retry_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Mechanical Keyboard (INR 4200) hit a temporary technical issue on our end. Nothing wrong with your card/account. Tap here to retry: https://checkout.example.com/resume/order_0024",
-    "sent_at": "2026-08-22T20:05:41.402332+00:00",
+    "sent_at": "2026-08-22T20:19:10.175774+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -148,7 +148,7 @@
     "action": "soft_reminder_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! You left Mechanical Keyboard (INR 4200) in your cart. Still interested? Pick up right where you left off: https://checkout.example.com/resume/order_0053",
-    "sent_at": "2026-08-22T20:05:41.770035+00:00",
+    "sent_at": "2026-08-22T20:19:10.582915+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -156,7 +156,7 @@
     "action": "soft_reminder_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! You left Office Chair (INR 8500) in your cart. Still interested? Pick up right where you left off: https://checkout.example.com/resume/order_0052",
-    "sent_at": "2026-08-22T20:05:42.164350+00:00",
+    "sent_at": "2026-08-22T20:19:10.966095+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -164,7 +164,7 @@
     "action": "soft_reminder_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! You left Office Chair (INR 8500) in your cart. Still interested? Pick up right where you left off: https://checkout.example.com/resume/order_0056",
-    "sent_at": "2026-08-22T20:05:42.551235+00:00",
+    "sent_at": "2026-08-22T20:19:11.325100+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -172,7 +172,7 @@
     "action": "otp_resend_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! It looks like the OTP for your Backpack order didn't come through in time. Tap here to retry and we'll resend it: https://checkout.example.com/resume/order_0036",
-    "sent_at": "2026-08-22T20:05:42.928465+00:00",
+    "sent_at": "2026-08-22T20:19:11.703354+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -180,7 +180,7 @@
     "action": "retry_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Wireless Earbuds (INR 2499) hit a temporary technical issue on our end. Nothing wrong with your card/account. Tap here to retry: https://checkout.example.com/resume/order_0029",
-    "sent_at": "2026-08-22T20:05:43.303623+00:00",
+    "sent_at": "2026-08-22T20:19:12.093189+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -188,7 +188,7 @@
     "action": "soft_reminder_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! You left Running Shoes (INR 3200) in your cart. Still interested? Pick up right where you left off: https://checkout.example.com/resume/order_0057",
-    "sent_at": "2026-08-22T20:05:43.679633+00:00",
+    "sent_at": "2026-08-22T20:19:12.473923+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -196,7 +196,7 @@
     "action": "retry_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Running Shoes (INR 3200) hit a temporary technical issue on our end. Nothing wrong with your card/account. Tap here to retry: https://checkout.example.com/resume/order_0022",
-    "sent_at": "2026-08-22T20:05:44.063681+00:00",
+    "sent_at": "2026-08-22T20:19:12.865459+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -204,7 +204,7 @@
     "action": "soft_reminder_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! You left Mechanical Keyboard (INR 4200) in your cart. Still interested? Pick up right where you left off: https://checkout.example.com/resume/order_0054",
-    "sent_at": "2026-08-22T20:05:44.442272+00:00",
+    "sent_at": "2026-08-22T20:19:13.248942+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -212,7 +212,7 @@
     "action": "retry_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Office Chair (INR 8500) hit a temporary technical issue on our end. Nothing wrong with your card/account. Tap here to retry: https://checkout.example.com/resume/order_0028",
-    "sent_at": "2026-08-22T20:05:44.825139+00:00",
+    "sent_at": "2026-08-22T20:19:13.675016+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -220,7 +220,7 @@
     "action": "alt_payment_method_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Backpack (INR 1599) didn't go through with that method. You can try a different card or UPI here: https://checkout.example.com/resume/order_0041",
-    "sent_at": "2026-08-22T20:05:45.199878+00:00",
+    "sent_at": "2026-08-22T20:19:14.066388+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -228,7 +228,7 @@
     "action": "soft_reminder_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! You left Mechanical Keyboard (INR 4200) in your cart. Still interested? Pick up right where you left off: https://checkout.example.com/resume/order_0055",
-    "sent_at": "2026-08-22T20:05:45.585539+00:00",
+    "sent_at": "2026-08-22T20:19:14.444832+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -236,7 +236,7 @@
     "action": "soft_reminder_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! You left Mechanical Keyboard (INR 4200) in your cart. Still interested? Pick up right where you left off: https://checkout.example.com/resume/order_0059",
-    "sent_at": "2026-08-22T20:05:46.313121+00:00",
+    "sent_at": "2026-08-22T20:19:14.828203+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -244,7 +244,7 @@
     "action": "soft_reminder_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! You left Laptop - 15 inch (INR 55000) in your cart. Still interested? Pick up right where you left off: https://checkout.example.com/resume/order_0058",
-    "sent_at": "2026-08-22T20:05:46.686898+00:00",
+    "sent_at": "2026-08-22T20:19:15.297526+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -252,7 +252,7 @@
     "action": "alt_payment_method_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Office Chair (INR 8500) didn't go through with that method. You can try a different card or UPI here: https://checkout.example.com/resume/order_0044",
-    "sent_at": "2026-08-22T20:05:47.038508+00:00",
+    "sent_at": "2026-08-22T20:19:15.702706+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -260,7 +260,7 @@
     "action": "retry_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for Air Fryer (INR 5400) hit a temporary technical issue on our end. Nothing wrong with your card/account. Tap here to retry: https://checkout.example.com/resume/order_0027",
-    "sent_at": "2026-08-22T20:05:47.399028+00:00",
+    "sent_at": "2026-08-22T20:19:16.082275+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -268,7 +268,7 @@
     "action": "otp_resend_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! It looks like the OTP for your Backpack order didn't come through in time. Tap here to retry and we'll resend it: https://checkout.example.com/resume/order_0037",
-    "sent_at": "2026-08-22T20:05:47.764891+00:00",
+    "sent_at": "2026-08-22T20:19:16.461075+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -276,7 +276,7 @@
     "action": "otp_resend_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! It looks like the OTP for your Backpack order didn't come through in time. Tap here to retry and we'll resend it: https://checkout.example.com/resume/order_0035",
-    "sent_at": "2026-08-22T20:05:48.342360+00:00",
+    "sent_at": "2026-08-22T20:19:17.115022+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -284,7 +284,7 @@
     "action": "retry_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! Your payment for 4K Monitor (INR 18500) hit a temporary technical issue on our end. Nothing wrong with your card/account. Tap here to retry: https://checkout.example.com/resume/order_0020",
-    "sent_at": "2026-08-22T20:05:48.732851+00:00",
+    "sent_at": "2026-08-22T20:19:17.500846+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   },
   {
@@ -292,7 +292,7 @@
     "action": "otp_resend_nudge",
     "channel": "sms_whatsapp_mock",
     "message": "Hi! It looks like the OTP for your Laptop - 15 inch order didn't come through in time. Tap here to retry and we'll resend it: https://checkout.example.com/resume/order_0034",
-    "sent_at": "2026-08-22T20:05:49.097515+00:00",
+    "sent_at": "2026-08-22T20:19:17.887994+00:00",
     "note": "MOCK SEND \u2014 no real message gateway wired up for this build. Agent never auto-charges or auto-retries; customer must tap the link themselves."
   }
 ]
