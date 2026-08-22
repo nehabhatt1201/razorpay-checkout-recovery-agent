@@ -1,0 +1,267 @@
+{
+  "metrics": {
+    "total_events": 78,
+    "excluded_upfront": 6,
+    "diagnosed": 54,
+    "recoverable_diagnosed": 40,
+    "not_recoverable_diagnosed": 14,
+    "actions_taken": 37,
+    "simulated_recovered_count": 20,
+    "simulated_recovery_rate_pct": 54.1,
+    "simulated_recovered_value_inr": 96591,
+    "total_value_in_play_inr": 296885,
+    "suppressed_examples": [
+      {
+        "order_id": "order_0047",
+        "diagnosis_bucket": "user_cancelled",
+        "confidence": 0.15,
+        "amount_inr": 18500,
+        "timestamp": "2026-08-22T20:11:22.402154+00:00",
+        "action": "no_action",
+        "reason": "Confidence 0.15 below minimum threshold 0.5 \u2014 too uncertain to act."
+      },
+      {
+        "order_id": "order_0067",
+        "diagnosis_bucket": "low_intent_abandonment",
+        "confidence": 0.2,
+        "amount_inr": 5400,
+        "timestamp": "2026-08-22T20:11:22.402278+00:00",
+        "action": "no_action",
+        "reason": "Confidence 0.20 below minimum threshold 0.5 \u2014 too uncertain to act."
+      },
+      {
+        "order_id": "order_0046",
+        "diagnosis_bucket": "user_cancelled",
+        "confidence": 0.15,
+        "amount_inr": 2499,
+        "timestamp": "2026-08-22T20:11:22.402311+00:00",
+        "action": "no_action",
+        "reason": "Confidence 0.15 below minimum threshold 0.5 \u2014 too uncertain to act."
+      }
+    ]
+  },
+  "conversions": [
+    {
+      "order_id": "order_0030",
+      "bucket": "technical_failure",
+      "amount": 2499,
+      "converted": true
+    },
+    {
+      "order_id": "order_0032",
+      "bucket": "auth_friction",
+      "amount": 1599,
+      "converted": true
+    },
+    {
+      "order_id": "order_0021",
+      "bucket": "technical_failure",
+      "amount": 2499,
+      "converted": false
+    },
+    {
+      "order_id": "order_0025",
+      "bucket": "technical_failure",
+      "amount": 3200,
+      "converted": true
+    },
+    {
+      "order_id": "order_0042",
+      "bucket": "payment_method_issue",
+      "amount": 1599,
+      "converted": false
+    },
+    {
+      "order_id": "order_0019",
+      "bucket": "technical_failure",
+      "amount": 2499,
+      "converted": true
+    },
+    {
+      "order_id": "order_0023",
+      "bucket": "technical_failure",
+      "amount": 18500,
+      "converted": true
+    },
+    {
+      "order_id": "order_0039",
+      "bucket": "payment_method_issue",
+      "amount": 1899,
+      "converted": false
+    },
+    {
+      "order_id": "order_0060",
+      "bucket": "high_intent_abandonment",
+      "amount": 4200,
+      "converted": true
+    },
+    {
+      "order_id": "order_0033",
+      "bucket": "auth_friction",
+      "amount": 2499,
+      "converted": true
+    },
+    {
+      "order_id": "order_0061",
+      "bucket": "high_intent_abandonment",
+      "amount": 4200,
+      "converted": true
+    },
+    {
+      "order_id": "order_0040",
+      "bucket": "payment_method_issue",
+      "amount": 2499,
+      "converted": true
+    },
+    {
+      "order_id": "order_0045",
+      "bucket": "payment_method_issue",
+      "amount": 18500,
+      "converted": false
+    },
+    {
+      "order_id": "order_0031",
+      "bucket": "auth_friction",
+      "amount": 1899,
+      "converted": false
+    },
+    {
+      "order_id": "order_0026",
+      "bucket": "technical_failure",
+      "amount": 1899,
+      "converted": true
+    },
+    {
+      "order_id": "order_0043",
+      "bucket": "payment_method_issue",
+      "amount": 4200,
+      "converted": true
+    },
+    {
+      "order_id": "order_0038",
+      "bucket": "auth_friction",
+      "amount": 18500,
+      "converted": false
+    },
+    {
+      "order_id": "order_0024",
+      "bucket": "technical_failure",
+      "amount": 4200,
+      "converted": false
+    },
+    {
+      "order_id": "order_0053",
+      "bucket": "high_intent_abandonment",
+      "amount": 4200,
+      "converted": false
+    },
+    {
+      "order_id": "order_0052",
+      "bucket": "high_intent_abandonment",
+      "amount": 8500,
+      "converted": false
+    },
+    {
+      "order_id": "order_0056",
+      "bucket": "high_intent_abandonment",
+      "amount": 8500,
+      "converted": false
+    },
+    {
+      "order_id": "order_0036",
+      "bucket": "auth_friction",
+      "amount": 1599,
+      "converted": true
+    },
+    {
+      "order_id": "order_0029",
+      "bucket": "technical_failure",
+      "amount": 2499,
+      "converted": false
+    },
+    {
+      "order_id": "order_0057",
+      "bucket": "high_intent_abandonment",
+      "amount": 3200,
+      "converted": false
+    },
+    {
+      "order_id": "order_0022",
+      "bucket": "technical_failure",
+      "amount": 3200,
+      "converted": true
+    },
+    {
+      "order_id": "order_0054",
+      "bucket": "high_intent_abandonment",
+      "amount": 4200,
+      "converted": true
+    },
+    {
+      "order_id": "order_0028",
+      "bucket": "technical_failure",
+      "amount": 8500,
+      "converted": true
+    },
+    {
+      "order_id": "order_0041",
+      "bucket": "payment_method_issue",
+      "amount": 1599,
+      "converted": false
+    },
+    {
+      "order_id": "order_0055",
+      "bucket": "high_intent_abandonment",
+      "amount": 4200,
+      "converted": true
+    },
+    {
+      "order_id": "order_0059",
+      "bucket": "high_intent_abandonment",
+      "amount": 4200,
+      "converted": false
+    },
+    {
+      "order_id": "order_0058",
+      "bucket": "high_intent_abandonment",
+      "amount": 55000,
+      "converted": false
+    },
+    {
+      "order_id": "order_0044",
+      "bucket": "payment_method_issue",
+      "amount": 8500,
+      "converted": false
+    },
+    {
+      "order_id": "order_0027",
+      "bucket": "technical_failure",
+      "amount": 5400,
+      "converted": true
+    },
+    {
+      "order_id": "order_0037",
+      "bucket": "auth_friction",
+      "amount": 1599,
+      "converted": true
+    },
+    {
+      "order_id": "order_0035",
+      "bucket": "auth_friction",
+      "amount": 1599,
+      "converted": true
+    },
+    {
+      "order_id": "order_0020",
+      "bucket": "technical_failure",
+      "amount": 18500,
+      "converted": true
+    },
+    {
+      "order_id": "order_0034",
+      "bucket": "auth_friction",
+      "amount": 55000,
+      "converted": false
+    }
+  ]
+}
